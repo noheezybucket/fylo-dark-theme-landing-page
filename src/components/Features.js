@@ -7,7 +7,7 @@ import collaboration from "../assets/icon-collaboration.svg";
 const Features = () => {
   return (
     <section className=" bg-main text-white pb-28">
-      <div className="mx-auto w-[60%] items-center gap-20  grid grid-rows-2 grid-cols-2">
+      <div className="mx-auto w-[55%] items-center gap-20  grid grid-rows-2 grid-cols-2">
         <div className="features-box">
           <img src={access} alt="access your files" className="features-mb" />
           <h2 className="features-heading">Access your files, anywhere</h2>
