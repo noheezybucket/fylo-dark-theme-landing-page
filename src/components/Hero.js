@@ -3,7 +3,7 @@ import hero from "../assets/illustration-intro.png";
 
 const Hero = () => {
   return (
-    <section className="text-white mx-auto bg-curvyDesktop bg-no-repeat bg-bottom pb-32">
+    <section className="text-white mx-auto bg-curvyDesktop bg-contain bg-no-repeat bg-bottom pb-32">
       <div className="w-[90%] mx-auto">
         <div className="mx-auto max-w-[550px]">
           <img src={hero} alt="Hero" className="w-full" />
