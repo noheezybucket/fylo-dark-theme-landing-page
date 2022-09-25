@@ -6,15 +6,15 @@ import quotes from "../assets/bg-quotes.png";
 
 const Testimonials = () => {
   return (
-    <section className="bg-main text-white pt-10 pb-[350px]">
+    <section className="bg-main text-white pt-10 pb-[450px] md:pb-[350px]">
       <div className="mx-auto w-[90%] grid md:grid-cols-3 gap-10">
-        <div className="bg-testimonials p-8 rounded relative ">
+        <div className="testimonials-box ">
           <img
             src={quotes}
             alt="quotes background"
             className="absolute -top-9 left-0"
           />
-          <p className="text-[1.1em]">
+          <p className="testimonials-text">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
             collaboration machine.
@@ -32,8 +32,8 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="bg-testimonials p-8 rounded">
-          <p className="text-[1.1em]">
+        <div className="testimonials-box">
+          <p className="testimonials-text">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
             collaboration machine.
@@ -51,8 +51,8 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="bg-testimonials p-8 rounded">
-          <p className="text-[1.1em]">
+        <div className="testimonials-box">
+          <p className="testimonials-text">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
             collaboration machine.

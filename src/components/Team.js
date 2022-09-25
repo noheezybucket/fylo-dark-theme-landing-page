@@ -4,7 +4,7 @@ import arrow from "../assets/icon-arrow.svg";
 
 const Team = () => {
   return (
-    <section className="text-white bg-main py-20 ">
+    <section className="text-white bg-main py-20" id="team">
       <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center gap-20">
         <div>
           <img src={productive} alt="stay productive" />

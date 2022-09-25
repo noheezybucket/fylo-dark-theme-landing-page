@@ -18,7 +18,7 @@ function App() {
       <Team />
       <Testimonials />
       <Footer />
-      <Sidebar />
+      <Sidebar navOpen={navOpen} setNavOpen={setNavOpen} />
     </div>
   );
 }
