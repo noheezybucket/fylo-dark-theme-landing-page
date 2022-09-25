@@ -4,12 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.header-hover {
+  @apply hover:text-[1.3em] duration-200 cursor-pointer;
+}
+
 .features-mb {
   @apply mb-5;
 }
 
 .features-box {
-  @apply flex flex-col justify-center items-center text-center;
+  @apply flex flex-col justify-center items-center text-center mb-10;
 }
 
 .features-heading {

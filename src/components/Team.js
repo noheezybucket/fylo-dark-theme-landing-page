@@ -5,12 +5,12 @@ import arrow from "../assets/icon-arrow.svg";
 const Team = () => {
   return (
     <section className="text-white bg-main py-20 ">
-      <div className="w-[90%] mx-auto flex items-center gap-20">
+      <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center gap-20">
         <div>
           <img src={productive} alt="stay productive" />
         </div>
-        <div className="w-[50%]">
-          <h2 className="text-3xl font-bold font-headings mb-5 w-[50%]">
+        <div className="md:w-[50%]">
+          <h2 className="text-3xl font-bold font-headings mb-5  md:w-[50%]">
             Stay productive, wherever you are
           </h2>
           <p>

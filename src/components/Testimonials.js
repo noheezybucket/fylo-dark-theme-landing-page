@@ -2,11 +2,18 @@ import React from "react";
 import person1 from "../assets/profile-1.jpg";
 import person2 from "../assets/profile-2.jpg";
 import person3 from "../assets/profile-3.jpg";
+import quotes from "../assets/bg-quotes.png";
+
 const Testimonials = () => {
   return (
-    <section className="bg-main text-white pt-10 pb-[400px]">
-      <div className="mx-auto w-[90%] grid grid-cols-3 gap-10">
-        <div className="bg-testimonials p-8 rounded">
+    <section className="bg-main text-white pt-10 pb-[350px]">
+      <div className="mx-auto w-[90%] grid md:grid-cols-3 gap-10">
+        <div className="bg-testimonials p-8 rounded relative ">
+          <img
+            src={quotes}
+            alt="quotes background"
+            className="absolute -top-9 left-0"
+          />
           <p className="text-[1.1em]">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled

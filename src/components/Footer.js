@@ -1,15 +1,17 @@
 import React from "react";
 import logo from "../assets/logo.svg";
+import AccessForm from "./AccessForm";
 
 const Footer = () => {
   return (
-    <footer className="bg-footer text-white py-[150px] grid grid-rows-2">
-      <div className="w-[90%] mx-auto mb-10">
+    <footer className="bg-footer text-white pb-[50px] pt-[150px] lg:grid lg:grid-rows-2 relative">
+      <AccessForm />
+      <div className="w-[90%] h-[40%] mx-auto mb-10 flex justify-center lg:justify-start">
         <img src={logo} alt="Fylo footer logo" />
       </div>
-      <div className="mx-auto w-[90%] grid grid-cols-4 gap-10">
+      <div className="mx-auto w-[50%] lg:w-[90%] grid lg:grid-cols-4 gap-10 ">
         <div>
-          <div className="flex gap-5  w-[120%]">
+          <div className="flex items-center flex-col lg:flex-row text-center lg:text-left mx-auto gap-5  xl:w-[100%]">
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 pl-16">
+        <div className="flex flex-col gap-3 lg:pl-16 items-center lg:items-start">
           <p className="flex gap-2">
             <span>
               <svg
@@ -79,7 +81,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex gap-20 pl-10">
+        <div className="flex flex-col lg:flex-row justify-center lg:justify-start items-center lg:items-start text-center lg:text-left gap-4 lg:gap-20 lg:pl-10">
           <div className="flex flex-col gap-3">
             <p className="footer-hover">About Us</p>
             <p className="footer-hover">Jobs</p>
